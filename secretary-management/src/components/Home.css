@@ -1,0 +1,51 @@
+.home-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.home-buttons a {
+  display: block;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.home-buttons a:hover {
+  background: #0056b3;
+}
+
+.logout-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background: #c82333;
+}

@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #007bff;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #ffd700;
+  border-radius: 4px;
+}
